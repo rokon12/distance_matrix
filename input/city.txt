@@ -1,0 +1,65 @@
+Birmingham	AL
+Mobile	AL
+Phoenix	AZ
+Tucson	AZ
+Los Angeles	CA
+Sacramento	CA
+San Diego	CA
+San Francisco	CA
+Fresno	CA
+Denver	CO
+Hartford	CT
+Washington	DC
+Jacksonville	FL
+Miami	FL
+Orlando	FL
+Tampa	FL
+Atlanta	GA
+Chicago	IL
+Indianapolis	IN
+Fort Wayne	IN
+Wichita	KS
+Louisville	KY
+Baton Rouge	LA
+New Orleans	LA
+Baltimore	MD
+Boston	MA
+Detroit	MI
+Grand Rapids	MI
+Minneapolis	MN
+Kansas City	MO
+St. Louis	MO
+Omaha	NE
+Las Vegas	NV
+Albany	NY
+Buffalo	NY
+New York	NY
+Rochester	NY
+Charlotte	NC
+Greensboro	NC
+Raleigh	NC
+Cincinnati	OH
+Cleveland	OH
+Columbus	OH
+Dayton	OH
+Oklahoma City	OK
+Tulsa	OK
+Portland	OR
+Philadelphia	PA
+Pittsburgh	PA
+Charleston	SC
+Greenville	SC
+Memphis	TN
+Nashville	TN
+Knoxville	TN
+Austin	TX
+Beaumont	TX
+Corpus Christi	TX
+Dallas	TX
+El Paso	TX
+Houston	TX
+San Antonio	TX
+Salt Lake City	UT
+Richmond	VA
+Seattle	WA
+Milwaukee	WI

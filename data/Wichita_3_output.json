@@ -1,0 +1,204 @@
+{
+   "destination_addresses" : [
+      "Charleston, SC, USA",
+      "Greenville, SC, USA",
+      "Memphis, TN, USA",
+      "Nashville, TN, USA",
+      "Knoxville, TN, USA",
+      "Austin, TX, USA",
+      "Beaumont, TX, USA",
+      "Corpus Christi, TX, USA",
+      "Dallas, TX, USA",
+      "El Paso, TX, USA",
+      "Houston, TX, USA",
+      "San Antonio, TX, USA",
+      "Salt Lake City, UT, USA",
+      "Richmond, VA, USA",
+      "Seattle, WA, USA",
+      "Milwaukee, WI, USA"
+   ],
+   "origin_addresses" : [ "Wichita, KS, USA" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "2,034 km",
+                  "value" : 2033611
+               },
+               "duration" : {
+                  "text" : "18 hours 44 mins",
+                  "value" : 67443
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,788 km",
+                  "value" : 1788185
+               },
+               "duration" : {
+                  "text" : "16 hours 25 mins",
+                  "value" : 59086
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "928 km",
+                  "value" : 928419
+               },
+               "duration" : {
+                  "text" : "8 hours 19 mins",
+                  "value" : 29911
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,094 km",
+                  "value" : 1094332
+               },
+               "duration" : {
+                  "text" : "10 hours 55 mins",
+                  "value" : 39307
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,379 km",
+                  "value" : 1378906
+               },
+               "duration" : {
+                  "text" : "13 hours 40 mins",
+                  "value" : 49212
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "877 km",
+                  "value" : 877191
+               },
+               "duration" : {
+                  "text" : "8 hours 1 min",
+                  "value" : 28882
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,044 km",
+                  "value" : 1044168
+               },
+               "duration" : {
+                  "text" : "9 hours 49 mins",
+                  "value" : 35354
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,191 km",
+                  "value" : 1190592
+               },
+               "duration" : {
+                  "text" : "11 hours 1 min",
+                  "value" : 39638
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "585 km",
+                  "value" : 585332
+               },
+               "duration" : {
+                  "text" : "5 hours 22 mins",
+                  "value" : 19335
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,212 km",
+                  "value" : 1212313
+               },
+               "duration" : {
+                  "text" : "12 hours 12 mins",
+                  "value" : 43904
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "969 km",
+                  "value" : 968905
+               },
+               "duration" : {
+                  "text" : "8 hours 48 mins",
+                  "value" : 31651
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,004 km",
+                  "value" : 1003776
+               },
+               "duration" : {
+                  "text" : "9 hours 14 mins",
+                  "value" : 33238
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,652 km",
+                  "value" : 1651875
+               },
+               "duration" : {
+                  "text" : "14 hours 57 mins",
+                  "value" : 53792
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "2,038 km",
+                  "value" : 2038203
+               },
+               "duration" : {
+                  "text" : "19 hours 37 mins",
+                  "value" : 70646
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "2,916 km",
+                  "value" : 2916417
+               },
+               "duration" : {
+                  "text" : "1 day 3 hours",
+                  "value" : 95470
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "1,231 km",
+                  "value" : 1231423
+               },
+               "duration" : {
+                  "text" : "11 hours 13 mins",
+                  "value" : 40387
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}
