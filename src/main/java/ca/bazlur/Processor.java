@@ -11,6 +11,7 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Stream;
 import org.apache.commons.csv.CSVFormat;
@@ -19,16 +20,18 @@ import org.apache.commons.csv.CSVPrinter;
 public class Processor {
 
   private static final ObjectMapper mapper = new ObjectMapper();
+  public static final String DATA_FOLDER = "data";
+  public static final String DISTANCE_MATRIX_CSV = "distance_matrix.csv";
 
   public static void main(String[] args) throws IOException {
 
-    try (final var data = Files.list(Path.of("data"))) {
+    try (final var data = Files.list(Path.of(DATA_FOLDER))) {
       var matrix = prepareData(data);
       createCsv(matrix);
     }
   }
 
-  private static HashMap<String, List<Edge>> prepareData(final Stream<Path> data) {
+  private static Map<String, List<Edge>> prepareData(final Stream<Path> data) {
     var matrix = new HashMap<String, List<Edge>>();
     data
         .map(Processor::load)
@@ -43,14 +46,14 @@ public class Processor {
     return matrix;
   }
 
-  private static void createCsv(final HashMap<String, List<Edge>> matrix) throws IOException {
+  private static void createCsv(final Map<String, List<Edge>> matrix) throws IOException {
     final var entry = matrix.entrySet().stream().toList().get(0);
     entry.getValue().sort(Comparator.comparing(Edge::destination, Comparator.naturalOrder()));
 
     final var sources = new ArrayList<>(matrix.keySet());
     sources.sort(Comparator.naturalOrder());
 
-    var out = new FileWriter("distance_matrix.csv");
+    final var out = new FileWriter(Processor.DISTANCE_MATRIX_CSV);
     final var headers = new String[sources.size() + 1];
     headers[0] = "Origin";
     for (int i = 0; i < sources.size(); i++) {
@@ -124,5 +127,4 @@ public class Processor {
       throw new RuntimeException("Unable to process: " + path, e);
     }
   }
-
 }
